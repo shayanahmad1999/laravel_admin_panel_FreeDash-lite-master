@@ -37,8 +37,15 @@ Route::get('/basic-table', function () {
     return view('tables/basic');
 })->name('admin.basicTable');
 
-
 Route::get('/data-table', function () {
     return view('tables/data');
 })->name('admin.dataTable');
+
+Route::get('/form-input', function () {
+    return view('forms/input');
+})->name('admin.inputForm');
+
+Route::get('/form-grid', function () {
+    return view('forms/grid');
+})->name('admin.gridForm');
 
