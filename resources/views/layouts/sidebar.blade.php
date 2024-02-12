@@ -11,7 +11,7 @@
                             class="hide-menu">Dashboard</span></a></li>
                 <li class="list-divider"></li>
                 <li class="nav-small-cap"><span class="hide-menu">Applications</span></li>
-                <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="#" aria-expanded="false"><i
+                <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="{{route('admin.modal')}}" aria-expanded="false"><i
                             data-feather="message-square" class="feather-icon"></i><span
                             class="hide-menu"> Modals </span></a></li>
 

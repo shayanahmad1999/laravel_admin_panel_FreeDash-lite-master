@@ -28,3 +28,7 @@ Route::get('/signup', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('admin.dashboard');
+
+Route::get('/modals', function () {
+    return view('modal');
+})->name('admin.modal');
